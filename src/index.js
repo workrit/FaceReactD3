@@ -4,7 +4,7 @@ import {BackGroundCircle} from './BackGroundCircle.js'
 import {Eyes} from './Eyes.js'
 import {Mouth} from './Mouth.js'
 
-console.log('ritesh')
+
 
 
 const width = window.innerWidth;
