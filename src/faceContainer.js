@@ -1,13 +1,6 @@
-﻿const width = window.innerWidth;
-const height = window.innerHeight;
-const centerX = width / 2;
-const centerY = height / 2;
-
-
-
-const FaceContainer =(props) =>(
-    <svg width={width} height={height}>
-    <g transform={`translate(${centerX},${centerY})`}>
+﻿const FaceContainer =(props) =>(
+    <svg width={props.width} height={props.height}>
+    <g transform={`translate(${props.centerX},${props.centerY})`}>
     {props.children}
     </g>
     </svg>

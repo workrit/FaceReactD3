@@ -2,8 +2,8 @@
 const Mouth=(props)=>{
 
     const mouthArc = d3.arc()
-      .innerRadius(3/8*props.centerY)
-      .outerRadius(3/8*props.centerY+10)
+      .innerRadius(3/8*props.InnerRadi)
+      .outerRadius(3/8*props.InnerRadi+4)
       .startAngle(Math.PI/2)
       .endAngle((3*Math.PI) / 2);
   

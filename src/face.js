@@ -22,7 +22,7 @@ const Face=(props)=>(
     eyeRadius={props.eyeRadius}
     />
 
-    <Mouth centerY={props.centerY}/>
+    <Mouth InnerRadi={props.InnerRadi}/>
 
     </FaceContainer>
 );
