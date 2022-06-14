@@ -1,5 +1,4 @@
-﻿import {arc} from 'd3';
-
+﻿
 const Mouth=(props)=>{
 
     const mouthArc = d3.arc()

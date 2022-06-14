@@ -1,4 +1,5 @@
-﻿const Eyes = (props) => (
+﻿
+const Eyes = (props) => (
     <>
       <circle
         cx={props.centerY/(4*Math.sqrt(2))}
